@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Nano11</title>
+  <style>
+    body {
+      background-color: rgb(30, 30, 30);
+      color: white;
+      font-family: "Poppins", sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .title-description-container {
+      background-image: url("https://cdn.discordapp.com/attachments/1102173767985279048/1110621866177073203/1273703.png");
+      background-size: cover;
+      background-position: center;
+      border-radius: 10px;
+      padding: 60px; /* Increased padding */
+      margin: 40px; /* Increased margin */
+      font-size: 18px;
+    }
+
+    h1 {
+      font-family: "Poppins", sans-serif;
+      font-weight: bold;
+      text-align: left;
+      margin-bottom: 10px;
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      padding: 10px;
+      border-radius: 10px;
+      background-image: url("background.jpg");
+      background-size: cover;
+      background-position: center;
+      font-size: 24px; /* Increased font size */
+      margin-bottom: 20px; /* Increased margin */
+    }
+
+    .navbar {
+      background-color: rgb(50, 50, 50);
+      padding: 10px 20px;
+      border-radius: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 800px;
+      margin: 20px auto 0;
+    }
+
+    .navbar img {
+      width: 150px;
+      height: px;
+      margin-right: 10px;
+    }
+
+    .navbar ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    .navbar li {
+      display: inline;
+    }
+
+    .navbar li a {
+      color: white;
+      padding: 10px;
+      text-decoration: none;
+    }
+
+    .discord-icon {
+      width: 20px;
+      height: 20px;
+      background-image: url("https://cdn.discordapp.com/attachments/1102173767985279048/1110632138556059698/image.png");
+      background-size: cover;
+      display: inline-block;
+      margin-right: 5px;
+      vertical-align: middle;
+    }
+
+
+    .content {
+      margin: 20px;
+    }
+
+    .footer {
+      background-color: rgb(50, 50, 50);
+      padding: 10px;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    /* Media Queries */
+    @media only screen and (max-width: 600px) {
+      /* Styles for mobile */
+      h1 {
+        text-align: center;
+      }
+
+      .navbar {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+      }
+
+      .navbar img {
+        margin-right: 0;
+        margin-bottom: 10px;
+      }
+
+      .navbar ul {
+        text-align: center;
+      }
+
+      .footer {
+        font-size: 12px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <img src="https://cdn.discordapp.com/attachments/1102173767985279048/1110631356351905832/image.png" alt="Logo">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Downloads</a></li>
+      <li><a href="#">Credits</a></li>
+      <li><a href="https://discord.gg/example" target="_blank"><span class="discord-icon"></span>Discord</a></li>
+    </ul>
+  </div>
+
+  <div class="title-description-container">
+    <h1>
+
+    Introducing Nano11</h1>
+    <p>The most optimizing superlite build ever.</p>
+  </div>
+
+  <div class="content">
+    <!-- Your content goes here -->
+  </div>
+
+  <div class="footer">
+    &copy; 2023 Nano11 | All rights reserved
+  </div>
+</body>
+</html>
