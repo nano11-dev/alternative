@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Nano11</title>
+  <title>Font Showcase</title>
   <style>
     body {
       background-color: rgb(30, 30, 30);
@@ -12,20 +12,18 @@
     }
 
     .title-description-container {
-      background-image: url("https://cdn.discordapp.com/attachments/1102173767985279048/1110621866177073203/1273703.png");
+      background-image: url("https://media.discordapp.net/attachments/1102173767985279048/1110621866177073203/1273703.png?width=1193&height=671");
       background-size: cover;
       background-position: center;
       border-radius: 10px;
-      padding: 60px; /* Increased padding */
-      margin: 40px; /* Increased margin */
-      font-size: 18px;
+      padding: 60px;
+      margin: 40px;
     }
 
     h1 {
       font-family: "Poppins", sans-serif;
       font-weight: bold;
       text-align: left;
-      margin-bottom: 10px;
       font-size: 36px;
       margin-bottom: 20px;
     }
@@ -36,8 +34,8 @@
       background-image: url("background.jpg");
       background-size: cover;
       background-position: center;
-      font-size: 24px; /* Increased font size */
-      margin-bottom: 20px; /* Increased margin */
+      font-size: 24px;
+      margin-bottom: 20px;
     }
 
     .navbar {
@@ -54,7 +52,8 @@
     .navbar img {
       width: 150px;
       height: px;
-      margin-right: 10px;
+      margin-right: 0px;
+      margin-bottom: 0px;
     }
 
     .navbar ul {
@@ -84,9 +83,35 @@
       vertical-align: middle;
     }
 
-
-    .content {
+    .card-container {
+      display: flex;
+      justify-content: center;
       margin: 20px;
+    }
+
+    .card {
+      background-color: rgb(50, 50, 50);
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+      width: 200px;
+      margin: 0 10px;
+    }
+
+    .card-icon {
+      width: 50px;
+      height: 50px;
+      margin-bottom: 10px;
+    }
+
+    .card-title {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .card-description {
+      font-size: 14px;
     }
 
     .footer {
@@ -118,9 +143,16 @@
         text-align: center;
       }
 
-      .footer {
-        font-size: 12px;
+      .card-container {
+        flex-direction: column;
+        align-items: center;
       }
+
+      .card {
+        width: 100%;
+        margin: 10px;
+      }
+
     }
   </style>
 </head>
@@ -143,10 +175,30 @@
   </div>
 
   <div class="content">
-    <!-- Your content goes here -->
+    <div class="card-container">
+        <div class="card">
+          <img src="https://cdn.discordapp.com/attachments/1102173767985279048/1110650506323435530/icons8-speedometer-50.png" alt="Speed and fast: Speedometer" class="card-icon">
+          <h2 class="card-title">Peformance</h2>
+          <p class="card-description">Nano11 Provides a wide range of peformance and increases FPS.</p>
+        </div>
+    
+        <div class="card">
+          <img src="https://media.discordapp.net/attachments/1102173767985279048/1110650288827805786/icons8-storage-50.png?width=55&height=55" alt="What things does stores: Storage" class="card-icon">
+          <h2 class="card-title">Storage</h2>
+          <p class="card-description">Nano11 uses less storage than an Windows 11 Installation.</p>
+        </div>
+    
+        <div class="card">
+          <img src="https://cdn.discordapp.com/attachments/1102173767985279048/1110652599675400294/icons8-privacy-50_1.png" alt="Icon 3" class="card-icon">
+          <h2 class="card-title">Privacy</h2>
+          <p class="card-description">Nano11 has a built-in antivirus and removing all bloatware.</p>
+        </div>
+      </div>
+    
   </div>
 
   <div class="footer">
+    Published with Github Pages.
     &copy; 2023 Nano11 | All rights reserved
   </div>
 </body>
